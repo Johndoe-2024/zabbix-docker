@@ -5,7 +5,7 @@ The docker-compose project will install Mysql, Zabbix-frontend and Zabbix-server
 ## **Introduction**
 
 The script install Mysql version 8.0.30, Zabbix-web-apache-mysql and zabbix-server-mysql with its dependecies. 
-You can need modify .env file for your environnement. 
+You should modify .env file for your environnement. 
 
 ## **Installation**
 For this project, i'm using Ubuntu 22.04 and Debian 12. 
