@@ -52,4 +52,4 @@ Project Title was created by **[Johndoe-2024](https://github.com/Johndoe-2024/za
 
 ## **Conclusion**
 
-Have fun wit this script !
+Have fun with this script !
