@@ -26,10 +26,6 @@ To use Project Title, follow these steps:
 
 Project Title was created by **[Johndoe-2024](https://github.com/Johndoe-2024/zabbix-docker.git)**.
 
-Additional contributors include:
-
-- **[Contributor Name](https://github.com/Johndoe-2024/zabbix-docker.git)**
-
 ## **FAQ**
 
 **Q:** What is Project Title?
