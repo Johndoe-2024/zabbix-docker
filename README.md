@@ -1,4 +1,4 @@
-## **Zabbix Docker-Compose**
+## **Zabbix on Docker**
 
 The docker-compose project will install Mysql, Zabbix-frontend and Zabbix-server to monitore your environnement. 
 
