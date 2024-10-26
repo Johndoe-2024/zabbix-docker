@@ -27,25 +27,6 @@ To use Project Title, follow these steps:
 
 Project Title was created by **[Johndoe-2024](https://github.com/Johndoe-2024/zabbix-docker.git)**.
 
-## **FAQ**
-
-**Q:** What is Project Title?
-
-**A:** Project Title is a project that does something useful.
-
-**Q:** How do I install Project Title?
-
-**A:** Follow the installation steps in the README file.
-
-**Q:** How do I use Project Title?
-
-**A:** Follow the usage steps in the README file.
-
-**Q:** How do I contribute to Project Title?
-
-**A:** Follow the contributing guidelines in the README file.
-
-
 ## **Changelog**
 
 - **0.1.0:** Initial release
