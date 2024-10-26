@@ -11,7 +11,8 @@ You can need modify .env file for your environnement.
 For this project, i'm using Ubuntu 22.04 and Debian 12. 
 
 1. Clone the repository: **`https://github.com/Johndoe-2024/zabbix-docker.git`**
-2. Navigate to the project directory: **`docker-compose up -d`**
+2. Navigate to the project directory: **`cd zabbix-docker`**
+3. Run the docker-compose: **`docker-compose up -d`**
 
 ## **Usage**
 
