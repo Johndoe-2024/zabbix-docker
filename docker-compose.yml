@@ -10,9 +10,9 @@ services:
       MYSQL_USER: ${ZABBIX_MYSQL_USER}
       MYSQL_PASSWORD: ${ZABBIX_DB_PASSWORD}
     ports:
-      - "3306:3306"
+      - "3307:3306"
     volumes:
-      - mysql-data:/var/lib/mysql
+      - zabbix_mysql-data:/var/lib/mysql
 
   zabbix_server:
     image: zabbix/zabbix-server-mysql:latest
@@ -24,6 +24,7 @@ services:
       MYSQL_USER: ${ZABBIX_MYSQL_USER}
       MYSQL_DATABASE: ${ZABBIX_MYSQL_DATABASE}
       MYSQL_PASSWORD: ${ZABBIX_DB_PASSWORD}
+      ListenPort: "10051"
     ports:
       - "10051:10051"
 
@@ -39,9 +40,9 @@ services:
       ZBX_SERVER_HOST: ${ZABBIX_ZBX_SERVER_HOST}
       PHP_TZ: ${ZABBIX_PHP_TZ}
     ports:
-      - "80:8080"
-      - "443:8443"
+      - "8080:8080"
+      - "8443:8443"
 
 volumes:
-  mysql-data:
+  zabbix_mysql-data:
     external: true
